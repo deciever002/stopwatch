@@ -14,9 +14,7 @@ let interval;
 //Start the stopwatch if start button is clicked
 startTimer.addEventListener("click",() => {
     console.log("Started the Stopwatch");
-    if(interval !== null){
-        clearInterval(interval);
-    }
+    clearInterval(interval);
     interval = setInterval(startWatch,10);
 });
 
