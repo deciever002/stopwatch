@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f7f9fc;
+  }
+
+  
+  /* Styles for heading */
+  .heading{
+    display: flex;
+    margin: auto;
+    margin: 50px;
+    height: 100px;
+    width: 300px;
+    box-shadow: 2px 2px 5px 4px #e4aeae;
+    border-radius: 5px;
+    background-color: white;
+    justify-content: space-around;
+  }
+
+
+  /* Style for the main card */
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 4px #e4aeae;
+  }
+
+
+/* Style for Timer Container and its content */
+  .timer{
+    height: 50%;
+    margin: 10px;
+  }
+  .timer p{
+    margin: 0px;
+    font-size: 100px;
+  }
+
+/* Style for button container and buttons */
+  .control-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 10%;
+  }
+  .button{
+    width: 20%;
+    height: 100%;
+    background-color: white; 
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  #start{
+    border: 2px solid #00ca0a;
+    border-radius: 5px;
+  }
+  #stop{
+    border: 2px solid #ca2800;
+    border-radius: 5px;
+  }
+  #reset{
+    border: 2px solid #00b7ff;
+    border-radius: 5px;
+  }
+  #start:hover{
+    background-color: #00ca0a;
+    color: white;
+  }
+  #stop:hover{
+    background-color: #ca2800;
+    color: white;
+  }
+  #reset:hover{
+    background-color: #00b7ff;
+    color: white;
+  }
